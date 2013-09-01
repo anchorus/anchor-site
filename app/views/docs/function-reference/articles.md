@@ -79,6 +79,14 @@
 	<a href="<?php echo article_url(); ?>">
 	    <?php echo article_title(); ?>
 	</a>
+	
+### `article_category`
+
+Возвращает название категории записи.
+
+### `article_category_url`
+
+Возвращает URL категории записи.
 
 ### `customised`
 
