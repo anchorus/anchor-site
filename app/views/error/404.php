@@ -1,7 +1,7 @@
 <?php echo $header; ?>
 
 <div class="wrap spaced">
-	That page doesn’t exist. Unlucky.
+	Такой страницы не существует. Несчастье.
 </div>
 
 <?php echo $footer; ?>

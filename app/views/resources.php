@@ -15,11 +15,11 @@
 			<p>Не сойти с ума.</p>
 
 			<a name="hosts"></a>
-			<h3>Рекомендованные хостинги</h3>
+			<h3>Рекомендуемые хостинги</h3>
 
 			<p>Здесь несколько рекомендуемых хостинг-провайдеров для Anchor.</p>
 
-			<p><strong><abbr title="Русские Виртуальные хостинги">Русские хостинги<abbr></strong></p>
+			<p><strong><abbr title="Виртуальные хостинги с поддержкой русского языка">Русскоязычные хостинги<abbr></strong></p>
 
 			<ul>
 				<li><a href="http://www.diphost.ru/">DiPHOST</a></li>
@@ -33,20 +33,28 @@
 				<li><a href="http://bluehost.com/">Bluehost</a></li>
 				<li><a href="http://hostgator.com/">Hostgator</a></li>
 				<li><a href="http://asmallorange.com/">A Small Orange</a></li>
+				<li><a href="http://ehostdirect.com/">eHostDirect</a></li>
 			</ul>
 
 			<p><strong><abbr title="Виртуальные Приватный Сервер">VPS<abbr></strong></p>
 
 			<ul>
-				<li><a href="http://www.linode.com/">Linode</a></li>
+			    <li><a href="http://www.digitalocean.com/">DigitalOcean</a></li>
+				<li><a href="http://linode.com/">Linode</a></li>
 				<li><a href="http://mediatemple.net/webhosting/ve/">Media Temple</a></li>
 			</ul>
 
 			<p><strong><abbr title="Платформа как сервис">PaaS<abbr></strong></p>
 
 			<ul>
-				<li><a href="http://www.appfog.com/">App Fog</a></li>
-				<li><a href="http://www.engineyard.com/">Engine Yard</a></li>
+				<li><a href="http://appfog.com/">App Fog</a></li>
+				<li><a href="http://engineyard.com/">Engine Yard</a></li>
+				<li>
+					<a href="http://openshift.com/">OpenShift</a>
+					<ul>
+						<li><a href="http://www.mseri.me/deploying-anchor-cms-on-openshift/">Установка Anchor CMS на OpenShift</a></li>
+					</ul>
+				</li>
 			</ul>
 		</section>
 		
@@ -54,7 +62,7 @@
 			<ul>
 				<li><a href="#logos">Логотип</a></li>
 				<li><a href="#guidelines">Правила дизайна</a></li>
-				<li><a href="#hosts">Рекомендованные хостинги</a></li>
+				<li><a href="#hosts">Рекомендуемые хостинги</a></li>
 			</ul>
 		</aside>
 	</section>

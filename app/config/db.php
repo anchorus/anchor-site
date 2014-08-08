@@ -15,7 +15,7 @@ return array(
 			'port' => 3306,
 			'username' => 'root',
 			'password' => '',
-			'database' => '',
+			'database' => 'anchorcms',
 			'charset' => 'utf8'
 		)
 	)

@@ -3,8 +3,8 @@
 	<section class="features wrap">
 		<article class="col3">
 			<img src="<?php echo asset('assets/img/icons/markdown.png'); ?>">
-			<h2>Счастье в Markdown</h2>
-			<p>Anchor дает вам полную свободу над вашими словам. Пишите, используя <a href="http://daringfireball.net/projects/markdown/">Markdown</a> или HTML, как нравится.</p>
+			<h2>Счастье с Markdown</h2>
+			<p>Anchor дает вам полную свободу над словам. Пишите, используя <a href="http://daringfireball.net/projects/markdown/">Markdown</a> или HTML, как нравится.</p>
 		</article>
 
 		<article class="col3">
@@ -28,7 +28,7 @@
 		<article class="col3">
 			<img src="<?php echo asset('assets/img/icons/i18n.png'); ?>">
 			<h2>На твоём языке</h2>
-			<p>Anchor полностью совместим с <a href="http://www.debian.org/doc/manuals/intro-i18n/">i18n</a>, что позволит перевести Anchor на нужный язык за считанные минуты.</p>
+			<p>Anchor полностью совместим с <a href="http://www.debian.org/doc/manuals/intro-i18n/">i18n</a>, что позволяет перевести сайт на нужный язык за считанные минуты.</p>
 		</article>
 
 		<article class="col3">
@@ -63,7 +63,7 @@
 
 		<article class="col3">
 			<img src="<?php echo asset('assets/img/icons/free.png'); ?>">
-			<h2>Бесплатный навсегда</h2>
+			<h2>Бесплатный навеки</h2>
 			<p>Anchor был, есть, и будет на все 100% бесплатным для всех и навсегда.</p>
 		</article>
 

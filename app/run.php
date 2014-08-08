@@ -3,7 +3,7 @@
 /*
  * Set your applications current timezone
  */
-date_default_timezone_set(Config::app('timezone', 'UTC'));
+date_default_timezone_set(Config::app('timezone', 'Europe/Moscow')); //UTC
 
 /*
  * Define the application error reporting level based on your environment
@@ -29,7 +29,7 @@ Autoloader::directory(array(
 /**
  * Set the latest version number
  */
-define('LATEST_VERSION', '0.9.1');
+define('LATEST_VERSION', '0.9.2');
 
 function doc($slug, $name, $classes = array()) {
 	$url = str_replace('/docs/', '', filter_input(INPUT_SERVER, 'REQUEST_URI', FILTER_SANITIZE_URL));

@@ -11,7 +11,7 @@ Route::get(array('/', 'home'), function() {
 	Blog
 */
 Route::get('blog', function() {
-	$base = 'http://blog.anchorcms.com/';
+	$base = 'http://blog.anchorcms.ru/';
 	return Response::create('', 301, array('Location' => $base));
 });
 
@@ -19,7 +19,7 @@ Route::get('blog', function() {
 	Forum
 */
 Route::get('forum', function() {
-	$base = 'http://forums.anchorcms.com/';
+	$base = 'http://forums.anchorcms.ru/';
 	return Response::create('', 301, array('Location' => $base));
 });
 
@@ -54,10 +54,15 @@ Route::get('stats', function() {
 	Latest Version
 */
 Route::get('version', function() {
-	Query::table('active')->insert(get_insert_stats());
+    $vars['title'] = 'Версия';
+	return Layout::create('version', $vars);
+});
+
+
+/*	Query::table('active')->insert(get_insert_stats());
 
 	return Response::create(LATEST_VERSION, 200, array('content-type' => 'text/plain'));
-});
+});*/
 
 /*
 	Github push/pull
@@ -81,7 +86,7 @@ Route::any('deploy', function() {
 */
 Route::not_found(function() {
 	$output = Layout::create('error/404', array(
-		'title' => 'Страница не найдена'
+		'title' => 'Такой страницы нет'
 	))->yield();
 
 	return Response::create($output, 404);

@@ -4,7 +4,7 @@ class Layout {
 
 	public static function create($template, $vars = array()) {
 		$vars = array_merge(array(
-			'title' => 'Делает блоггинг прекрасным',
+			'title' => 'Делает мир лучше',
 			'page' => Uri::current()
 		), $vars);
 

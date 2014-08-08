@@ -2,23 +2,23 @@
 	<h3>Начало работы</h3>
 
 	<ul class="submenu">
-		<?php doc('getting-started/requirements', 'Системные требования'); ?>
+		<?php doc('getting-started/requirements', 'Требования'); ?>
 		<?php doc('getting-started/installing', 'Установка Anchor'); ?>
-		<?php doc('getting-started/upgrading', 'Обновление Anchor'); ?>
-		<?php doc('getting-started/configuration', 'Конфигурация'); ?>
+		<?php doc('getting-started/upgrading', 'Обновление'); ?>
+		<?php doc('getting-started/configuration', 'Настройка'); ?>
 	</ul>
 
 	<h3>Панель управления</h3>
 
 	<ul class="submenu">
-		<?php doc('managing-content/posts', 'Записи (статьи)'); ?>
+		<?php doc('managing-content/posts', 'Записи'); ?>
 		<?php doc('managing-content/comments', 'Комментарии'); ?>
-		<!--<?php doc('managing-content/pages', 'Страницы', array('red')); ?>
-		<?php doc('managing-content/categories', 'Категории', array('red')); ?>
-		<?php doc('managing-content/users', 'Пользователи', array('red')); ?>
-		<?php doc('managing-content/metadata', 'Настройки', array('red')); ?>
-		<?php doc('managing-content/custom-fields', 'Дополнительные поля', array('red')); ?>
-		<?php doc('managing-content/custom-variables', 'Дополнительные переменные', array('red')); ?>-->
+		<?php //doc('managing-content/pages', 'Страницы', array('red')); ?>
+		<?php //doc('managing-content/categories', 'Категории', array('red')); ?>
+		<?php //doc('managing-content/users', 'Пользователи', array('red')); ?>
+		<?php //doc('managing-content/metadata', 'Настройки', array('red')); ?>
+		<?php //doc('managing-content/custom-fields', 'Дополнительные поля', array('red')); ?>
+		<?php //doc('managing-content/custom-variables', 'Дополнительные переменные', array('red')); ?>
 	</ul>
 
 	<h3>Шаблоны</h3>

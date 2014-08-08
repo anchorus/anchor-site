@@ -8,7 +8,7 @@ return array(
 	'index' => '',
 
 	// Application Timezone
-	'timezone' => 'Europe/London',
+	'timezone' => 'Europe/Moscow',
 
 	// Application Key
 	'key' => 'b2XYV3sWFMfymUuxGkWPBqGgUrRM',
